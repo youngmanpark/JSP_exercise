@@ -7,6 +7,7 @@
 --%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
+<%@taglib tagdir="/WEB-INF/tags" prefix="mytag"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +15,11 @@
     <title>Insert title here</title>
 </head>
 <body>
-<h2>Hello World</h2>
+<center>
+    <h2> ch10:태그 파일 예제-printTagTest</h2>
+    <hr>
+    <l><mytag:print/></l>
+</center>
 
 </body>
 </html>
